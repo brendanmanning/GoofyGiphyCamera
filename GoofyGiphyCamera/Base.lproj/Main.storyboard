@@ -66,6 +66,14 @@
                                     <constraint firstAttribute="height" constant="30" id="e2y-NP-Ze7"/>
                                 </constraints>
                             </imageView>
+                            <progressView hidden="YES" opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="NFE-2U-mR5">
+                                <rect key="frame" x="16" y="640" width="343" height="2"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="2" id="oll-VP-9Iz"/>
+                                </constraints>
+                                <color key="progressTintColor" red="0.49803921568627452" green="0.49803921568627452" blue="0.49803921568627452" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="trackTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </progressView>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <gestureRecognizers/>
@@ -75,15 +83,18 @@
                             <constraint firstItem="Cdo-Cp-JKP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="ApN-oa-JlX"/>
                             <constraint firstItem="o3q-oc-xlR" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Epy-Fp-tdC"/>
                             <constraint firstItem="agx-le-gTC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Gpb-hd-Yr4"/>
+                            <constraint firstItem="NFE-2U-mR5" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="JeG-87-gGx"/>
                             <constraint firstItem="yO4-XC-VS3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="MIS-EP-4H7"/>
                             <constraint firstItem="G6V-Ip-m3I" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="W0d-rS-MU9"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HD3-94-Gah" secondAttribute="trailing" constant="16" id="WFl-TV-TXP"/>
                             <constraint firstItem="agx-le-gTC" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Zsl-l0-rps"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yO4-XC-VS3" secondAttribute="trailing" constant="16" id="cmA-gU-Ocx"/>
                             <constraint firstItem="agx-le-gTC" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="dd4-2d-3Pg"/>
+                            <constraint firstItem="NFE-2U-mR5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ee2-gu-q8D"/>
                             <constraint firstItem="o3q-oc-xlR" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="fzS-l1-4QM"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Cdo-Cp-JKP" secondAttribute="bottom" constant="25" id="hNH-Ia-BNy"/>
                             <constraint firstItem="o3q-oc-xlR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="qRC-Dm-LMz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="NFE-2U-mR5" secondAttribute="bottom" constant="25" id="wgW-9M-4wY"/>
                             <constraint firstItem="agx-le-gTC" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="wxJ-5p-Ggl"/>
                             <constraint firstItem="HD3-94-Gah" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="xzf-QJ-hCY"/>
                             <constraint firstItem="o3q-oc-xlR" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="zpL-rT-X5K"/>
@@ -97,6 +108,7 @@
                     <connections>
                         <outlet property="cameraView" destination="o3q-oc-xlR" id="JjY-lo-8jE"/>
                         <outlet property="closeViewModeButton" destination="yO4-XC-VS3" id="HEe-5q-cuv"/>
+                        <outlet property="confidenceView" destination="NFE-2U-mR5" id="hJL-va-mzG"/>
                         <outlet property="imageView" destination="agx-le-gTC" id="jB3-04-xhH"/>
                         <outlet property="searchLabel" destination="Cdo-Cp-JKP" id="VJr-5i-det"/>
                         <outlet property="shutterButton" destination="G6V-Ip-m3I" id="U5l-Je-HRx"/>

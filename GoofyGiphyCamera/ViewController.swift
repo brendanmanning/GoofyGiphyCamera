@@ -17,6 +17,7 @@ class ViewController: UIViewController, AVCapturePhotoCaptureDelegate {
     @IBOutlet weak var cameraView: UIView!
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var searchLabel: UILabel!
+    @IBOutlet weak var confidenceView: UIProgressView!
     
     @IBOutlet weak var shutterButton: ShutterButton!
     @IBOutlet weak var closeViewModeButton: UIButton!
@@ -129,9 +130,10 @@ class ViewController: UIViewController, AVCapturePhotoCaptureDelegate {
             for i in 0..<5 {
                 print(observations[i].identifier + " " + String(observations[i].confidence));
             }
-            self.query = observations[0].identifier
-            self.searchLabel!.text = "\"" + self.query + "\"";
+            self.query = observations[0].identifier;
             self.nextGif(self);
+            self.searchLabel!.text = "\"" + self.query + "\"";
+            self.confidenceView!.progress = observations[0].confidence;
         }
     }
     
@@ -141,6 +143,7 @@ class ViewController: UIViewController, AVCapturePhotoCaptureDelegate {
             self.shutterButton!.isHidden = false;
             self.closeViewModeButton!.isHidden = true;
             self.searchLabel!.isHidden = true;
+            self.confidenceView!.isHidden = true;
             
             for view in gifViews {
                 view.removeFromSuperview();
@@ -153,6 +156,8 @@ class ViewController: UIViewController, AVCapturePhotoCaptureDelegate {
             self.closeViewModeButton!.isHidden = false;
             self.searchLabel!.isHidden = false;
             self.searchLabel.text = "Loading...";
+            self.confidenceView!.isHidden = false;
+            self.confidenceView!.progress = 0;
         }
         self.state = state;
     }
