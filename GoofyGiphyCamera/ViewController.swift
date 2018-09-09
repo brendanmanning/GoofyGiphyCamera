@@ -42,7 +42,7 @@ class ViewController: UIViewController, AVCapturePhotoCaptureDelegate {
         
         // Configure the search bar's style
         searchLabel!.layer.masksToBounds = true;
-        searchLabel!.layer.cornerRadius = 8;
+        searchLabel!.layer.cornerRadius = 0 ;
         
         // Setup the Model
         guard let visionModel = try? VNCoreMLModel(for: Inceptionv3().model) else {
