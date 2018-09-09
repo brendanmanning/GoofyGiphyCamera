@@ -41,6 +41,7 @@ class ViewController: UIViewController, AVCapturePhotoCaptureDelegate {
         self.becomeFirstResponder();
         
         // Configure the search bar's style
+        searchLabel!.layer.masksToBounds = true;
         searchLabel!.layer.cornerRadius = 8;
         
         // Setup the Model
