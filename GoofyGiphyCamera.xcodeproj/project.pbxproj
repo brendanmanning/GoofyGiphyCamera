@@ -11,6 +11,7 @@
 		EB2207A42144A0CD00FEE6EE /* GIFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2207A32144A0CD00FEE6EE /* GIFView.swift */; };
 		EB2207A62144A73900FEE6EE /* Giphy.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2207A52144A73900FEE6EE /* Giphy.swift */; };
 		EB2207A82144AD6D00FEE6EE /* ViewControllerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2207A72144AD6D00FEE6EE /* ViewControllerState.swift */; };
+		EB80F7882145285300585FB4 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB80F7872145285300585FB4 /* AboutViewController.swift */; };
 		EB83C2DA2144350B00AE6CA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB83C2D92144350B00AE6CA7 /* AppDelegate.swift */; };
 		EB83C2DC2144350B00AE6CA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB83C2DB2144350B00AE6CA7 /* ViewController.swift */; };
 		EB83C2DF2144350B00AE6CA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB83C2DD2144350B00AE6CA7 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 		EB2207A32144A0CD00FEE6EE /* GIFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFView.swift; sourceTree = "<group>"; };
 		EB2207A52144A73900FEE6EE /* Giphy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Giphy.swift; sourceTree = "<group>"; };
 		EB2207A72144AD6D00FEE6EE /* ViewControllerState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerState.swift; sourceTree = "<group>"; };
+		EB80F7872145285300585FB4 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		EB83C2D62144350B00AE6CA7 /* GoofyGiphyCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoofyGiphyCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB83C2D92144350B00AE6CA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB83C2DB2144350B00AE6CA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				EB2207A32144A0CD00FEE6EE /* GIFView.swift */,
 				EB83C2EB21443A7300AE6CA7 /* ShutterButton.swift */,
 				EB83C2DD2144350B00AE6CA7 /* Main.storyboard */,
+				EB80F7872145285300585FB4 /* AboutViewController.swift */,
 				EB83C2E02144350D00AE6CA7 /* Assets.xcassets */,
 				EB83C2E22144350D00AE6CA7 /* LaunchScreen.storyboard */,
 				EB83C2E52144350D00AE6CA7 /* Info.plist */,
@@ -227,6 +230,7 @@
 				EBD4B88F21445D0D004F3EF6 /* Inceptionv3.mlmodel in Sources */,
 				EB2207A42144A0CD00FEE6EE /* GIFView.swift in Sources */,
 				EB2207A62144A73900FEE6EE /* Giphy.swift in Sources */,
+				EB80F7882145285300585FB4 /* AboutViewController.swift in Sources */,
 				EB83C2EC21443A7300AE6CA7 /* ShutterButton.swift in Sources */,
 				EB2207A82144AD6D00FEE6EE /* ViewControllerState.swift in Sources */,
 				EB83C2DC2144350B00AE6CA7 /* ViewController.swift in Sources */,
