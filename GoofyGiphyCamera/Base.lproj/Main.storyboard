@@ -11,6 +11,21 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
+        <scene sceneID="YCX-lx-g3l">
+            <objects>
+                <viewController id="EtC-Ff-nFg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="k96-wB-ahF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="wzS-am-a7x"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l6v-XN-NGh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137" y="-546"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GoofyGiphyCamera" customModuleProvider="target" sceneMemberID="viewController">
@@ -118,6 +133,7 @@
                         <outlet property="imageView" destination="agx-le-gTC" id="jB3-04-xhH"/>
                         <outlet property="searchLabel" destination="Cdo-Cp-JKP" id="VJr-5i-det"/>
                         <outlet property="shutterButton" destination="G6V-Ip-m3I" id="U5l-Je-HRx"/>
+                        <segue destination="EtC-Ff-nFg" kind="presentation" id="AcH-eT-Kir"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

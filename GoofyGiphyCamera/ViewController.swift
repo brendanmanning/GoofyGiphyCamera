@@ -7,6 +7,7 @@
 //
 
 import AVFoundation
+import BLTNBoard
 import CoreML
 import UIKit
 import Vision
@@ -31,8 +32,13 @@ class ViewController: UIViewController, AVCapturePhotoCaptureDelegate {
     // MARK: - State Variables
     var state: ViewControllerState = .Camera;
     var query: String = "dab";
-    
     var gifViews: [GIFView] = [GIFView]();
+    
+    // MARK: - BulletinBoard Setup
+    lazy var bulletinManager: BLTNItemManager = {
+        let introPage = Onboarding.firstCard()
+        return BLTNItemManager(rootItem: introPage)
+    }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -76,6 +82,14 @@ class ViewController: UIViewController, AVCapturePhotoCaptureDelegate {
             fatalError("Oh buns! The camera isn't working *sad face* :(")
         }
         
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated);
+        
+        if(!UserDefaults.standard.bool(forKey: "GGC_ONBOARDING_FINISHED")) {
+            bulletinManager.showBulletin(above: self)
+        }
     }
 
     @IBAction func capturePhoto(_ sender: Any) {
