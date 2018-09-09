@@ -15,7 +15,7 @@ class Giphy: NSObject {
         
         print("https://api.giphy.com/v1/gifs/random?api_key=B8sn2TaHbz5ATCH4Zd9VoJpoEKrQClAt&rating=PG-13&tag=" + query.replacingOccurrences(of: " ", with: "%20"));
         
-        Alamofire.request("https://api.giphy.com/v1/gifs/random?api_key=B8sn2TaHbz5ATCH4Zd9VoJpoEKrQClAt&rating=G&tag=" + query.replacingOccurrences(of: " ", with: "%20")).responseJSON { response in
+        Alamofire.request("https://api.giphy.com/v1/gifs/random?api_key=r4aLKSZRLbr4gtxwU93uns6L68c89ZbT&rating=G&tag=" + query.replacingOccurrences(of: " ", with: "%20")).responseJSON { response in
             print(response);
             if let jsonres = response.result.value {
                 let json = JSON(jsonres);
