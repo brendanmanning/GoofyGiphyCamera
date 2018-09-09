@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (4.7.2)
+  - BulletinBoard (2.0.1)
+  - SwiftyGif (4.1.0)
+  - SwiftyJSON (4.1.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - BulletinBoard
+  - SwiftyGif
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - BulletinBoard
+    - SwiftyGif
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  BulletinBoard: 99a428f91f64d0ffabf8a8104f79ecd064e2a4db
+  SwiftyGif: d36c6dfb52e2ca1e48fe349d225f50ec4123ec85
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+
+PODFILE CHECKSUM: b9ebdd1f11ab9073c3869f3827cc8122b7e18f2b
+
+COCOAPODS: 1.5.3

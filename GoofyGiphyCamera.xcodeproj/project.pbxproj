@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8514753A8133F17F6B535D3B /* Pods_GoofyGiphyCamera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E694F3DA6A6F352D006B03 /* Pods_GoofyGiphyCamera.framework */; };
+		EB2207A42144A0CD00FEE6EE /* GIFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2207A32144A0CD00FEE6EE /* GIFView.swift */; };
+		EB2207A62144A73900FEE6EE /* Giphy.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2207A52144A73900FEE6EE /* Giphy.swift */; };
+		EB2207A82144AD6D00FEE6EE /* ViewControllerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2207A72144AD6D00FEE6EE /* ViewControllerState.swift */; };
+		EB83C2DA2144350B00AE6CA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB83C2D92144350B00AE6CA7 /* AppDelegate.swift */; };
+		EB83C2DC2144350B00AE6CA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB83C2DB2144350B00AE6CA7 /* ViewController.swift */; };
+		EB83C2DF2144350B00AE6CA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB83C2DD2144350B00AE6CA7 /* Main.storyboard */; };
+		EB83C2E12144350D00AE6CA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB83C2E02144350D00AE6CA7 /* Assets.xcassets */; };
+		EB83C2E42144350D00AE6CA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB83C2E22144350D00AE6CA7 /* LaunchScreen.storyboard */; };
+		EB83C2EC21443A7300AE6CA7 /* ShutterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB83C2EB21443A7300AE6CA7 /* ShutterButton.swift */; };
+		EB83C2EE21443C5F00AE6CA7 /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB83C2ED21443C5F00AE6CA7 /* Int.swift */; };
+		EBD4B88F21445D0D004F3EF6 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EBD4B88E21445D0D004F3EF6 /* Inceptionv3.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A716BECBF3789CBEECA8308 /* Pods-GoofyGiphyCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoofyGiphyCamera.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoofyGiphyCamera/Pods-GoofyGiphyCamera.debug.xcconfig"; sourceTree = "<group>"; };
+		91296A1D014A2402A197A04F /* Pods-GoofyGiphyCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoofyGiphyCamera.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoofyGiphyCamera/Pods-GoofyGiphyCamera.release.xcconfig"; sourceTree = "<group>"; };
+		EB2207A32144A0CD00FEE6EE /* GIFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFView.swift; sourceTree = "<group>"; };
+		EB2207A52144A73900FEE6EE /* Giphy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Giphy.swift; sourceTree = "<group>"; };
+		EB2207A72144AD6D00FEE6EE /* ViewControllerState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerState.swift; sourceTree = "<group>"; };
+		EB83C2D62144350B00AE6CA7 /* GoofyGiphyCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoofyGiphyCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB83C2D92144350B00AE6CA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB83C2DB2144350B00AE6CA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB83C2DE2144350B00AE6CA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB83C2E02144350D00AE6CA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB83C2E32144350D00AE6CA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB83C2E52144350D00AE6CA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB83C2EB21443A7300AE6CA7 /* ShutterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShutterButton.swift; sourceTree = "<group>"; };
+		EB83C2ED21443C5F00AE6CA7 /* Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
+		EBD4B88E21445D0D004F3EF6 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		F0E694F3DA6A6F352D006B03 /* Pods_GoofyGiphyCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoofyGiphyCamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB83C2D32144350B00AE6CA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8514753A8133F17F6B535D3B /* Pods_GoofyGiphyCamera.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B998F3E0D3BA24974A92AA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0E694F3DA6A6F352D006B03 /* Pods_GoofyGiphyCamera.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		528B75456C82A24C4898EB70 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A716BECBF3789CBEECA8308 /* Pods-GoofyGiphyCamera.debug.xcconfig */,
+				91296A1D014A2402A197A04F /* Pods-GoofyGiphyCamera.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EB83C2CD2144350B00AE6CA7 = {
+			isa = PBXGroup;
+			children = (
+				EB83C2D82144350B00AE6CA7 /* GoofyGiphyCamera */,
+				EB83C2D72144350B00AE6CA7 /* Products */,
+				528B75456C82A24C4898EB70 /* Pods */,
+				1B998F3E0D3BA24974A92AA0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EB83C2D72144350B00AE6CA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB83C2D62144350B00AE6CA7 /* GoofyGiphyCamera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB83C2D82144350B00AE6CA7 /* GoofyGiphyCamera */ = {
+			isa = PBXGroup;
+			children = (
+				EB83C2D92144350B00AE6CA7 /* AppDelegate.swift */,
+				EB83C2DB2144350B00AE6CA7 /* ViewController.swift */,
+				EB2207A32144A0CD00FEE6EE /* GIFView.swift */,
+				EB83C2EB21443A7300AE6CA7 /* ShutterButton.swift */,
+				EB83C2DD2144350B00AE6CA7 /* Main.storyboard */,
+				EB83C2E02144350D00AE6CA7 /* Assets.xcassets */,
+				EB83C2E22144350D00AE6CA7 /* LaunchScreen.storyboard */,
+				EB83C2E52144350D00AE6CA7 /* Info.plist */,
+				EB83C2ED21443C5F00AE6CA7 /* Int.swift */,
+				EBD4B88E21445D0D004F3EF6 /* Inceptionv3.mlmodel */,
+				EB2207A52144A73900FEE6EE /* Giphy.swift */,
+				EB2207A72144AD6D00FEE6EE /* ViewControllerState.swift */,
+			);
+			path = GoofyGiphyCamera;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB83C2D52144350B00AE6CA7 /* GoofyGiphyCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB83C2E82144350D00AE6CA7 /* Build configuration list for PBXNativeTarget "GoofyGiphyCamera" */;
+			buildPhases = (
+				73CC9D34D5ACED5605841300 /* [CP] Check Pods Manifest.lock */,
+				EB83C2D22144350B00AE6CA7 /* Sources */,
+				EB83C2D32144350B00AE6CA7 /* Frameworks */,
+				EB83C2D42144350B00AE6CA7 /* Resources */,
+				81C8FD6E84304FD4DFA6FD6D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoofyGiphyCamera;
+			productName = GoofyGiphyCamera;
+			productReference = EB83C2D62144350B00AE6CA7 /* GoofyGiphyCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB83C2CE2144350B00AE6CA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Brendan Manning";
+				TargetAttributes = {
+					EB83C2D52144350B00AE6CA7 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = EB83C2D12144350B00AE6CA7 /* Build configuration list for PBXProject "GoofyGiphyCamera" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB83C2CD2144350B00AE6CA7;
+			productRefGroup = EB83C2D72144350B00AE6CA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB83C2D52144350B00AE6CA7 /* GoofyGiphyCamera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB83C2D42144350B00AE6CA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB83C2E42144350D00AE6CA7 /* LaunchScreen.storyboard in Resources */,
+				EB83C2E12144350D00AE6CA7 /* Assets.xcassets in Resources */,
+				EB83C2DF2144350B00AE6CA7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		73CC9D34D5ACED5605841300 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoofyGiphyCamera-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81C8FD6E84304FD4DFA6FD6D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GoofyGiphyCamera/Pods-GoofyGiphyCamera-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BulletinBoard/BLTNBoard.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyGif/SwiftyGif.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BLTNBoard.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyGif.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoofyGiphyCamera/Pods-GoofyGiphyCamera-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB83C2D22144350B00AE6CA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD4B88F21445D0D004F3EF6 /* Inceptionv3.mlmodel in Sources */,
+				EB2207A42144A0CD00FEE6EE /* GIFView.swift in Sources */,
+				EB2207A62144A73900FEE6EE /* Giphy.swift in Sources */,
+				EB83C2EC21443A7300AE6CA7 /* ShutterButton.swift in Sources */,
+				EB2207A82144AD6D00FEE6EE /* ViewControllerState.swift in Sources */,
+				EB83C2DC2144350B00AE6CA7 /* ViewController.swift in Sources */,
+				EB83C2EE21443C5F00AE6CA7 /* Int.swift in Sources */,
+				EB83C2DA2144350B00AE6CA7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB83C2DD2144350B00AE6CA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB83C2DE2144350B00AE6CA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB83C2E22144350D00AE6CA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB83C2E32144350D00AE6CA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB83C2E62144350D00AE6CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB83C2E72144350D00AE6CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB83C2E92144350D00AE6CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A716BECBF3789CBEECA8308 /* Pods-GoofyGiphyCamera.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 844DBNGC2A;
+				INFOPLIST_FILE = GoofyGiphyCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brendanmanning.GoofyGiphyCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB83C2EA2144350D00AE6CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91296A1D014A2402A197A04F /* Pods-GoofyGiphyCamera.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 844DBNGC2A;
+				INFOPLIST_FILE = GoofyGiphyCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brendanmanning.GoofyGiphyCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB83C2D12144350B00AE6CA7 /* Build configuration list for PBXProject "GoofyGiphyCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB83C2E62144350D00AE6CA7 /* Debug */,
+				EB83C2E72144350D00AE6CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB83C2E82144350D00AE6CA7 /* Build configuration list for PBXNativeTarget "GoofyGiphyCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB83C2E92144350D00AE6CA7 /* Debug */,
+				EB83C2EA2144350D00AE6CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB83C2CE2144350B00AE6CA7 /* Project object */;
+}
